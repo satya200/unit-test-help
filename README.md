@@ -20,7 +20,7 @@
   1. JUnit for Java
   2. NUnit for .NET
   3. PyTest for Python
-  4. GoogleTest for C++
+  4. GoogleTest for C++ and C
 
 # Reference Document
 https://google.github.io/googletest/
