@@ -6,7 +6,4 @@
 # -l gtest -l gtest_main links against the Google Test library.
 # -o test specifies the output file.
 
-g++ -isystem /usr/local/include -pthread test.cpp -l gtest -l gtest_main -o test
-
-# Run using below for filtering test case
-# ./test -gtest_filter=MathTest.Addition or --gtest_filter=MathTest.* --gtest_filter=-MathTest.Addition(This is for exclude)
+g++ -isystem /usr/local/include -pthread bank.cpp bank_mock.cpp -l gtest -l gmock_main -l gmock -o test
